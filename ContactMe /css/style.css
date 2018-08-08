@@ -1,0 +1,417 @@
+*{
+ padding: 0;
+ margin: 0;
+ border: 0;
+}
+/* =============== body page d'index =============== */
+#body
+{
+ background :url(../icons/DSC02490.JPG ) no-repeat ;
+ width: 560px;
+ margin:  auto;
+}
+/* =============== body page d'index2 =============== */
+#body2
+{
+ background :url(../icons/bois.jpg ) no-repeat ;
+ width: 100%;
+ margin:  auto;
+}
+/* =============== boutton page d'index =============== */
+.btn{
+ margin-top: 200px; 
+}
+.bouton{
+ border: 1px solid #2add47;
+ background: -webkit-gradient(linear, 0 0, 0 bottom, from(#a4cb5d), to(#9ec45a));
+ background: -moz-linear-gradient(#a4cb5d, #9ec45a);
+ background: linear-gradient(#a4cb5d, #9ec45a);
+ border: solid 1px #6e883f;
+ box-shadow: inset 0 10px 15px 0 #90b352; 
+ color: #ffffff;
+ cursor: pointer;}
+/* =============== logo =============== */
+.logo{ 
+ margin-left: -380px;
+ cursor: pointer;
+ }
+/* =============== page Connexion =============== */
+.main{
+ width: 80%;
+ margin: 0 auto;
+ margin-top: 200px;
+ padding: 6% 0 9% 0;
+ border-radius:10%;
+ -webkit-appearance:none;
+ background : rgba(221, 218, 215, 0.25);
+}
+/* =============== Formulaire de Connexion =============== */
+form.login input[type="text"], form.login input[type="password"],form.login input[type="date"],form.login input[type="email"]{
+ text-align:left;
+ width:50%;
+ padding:1%;
+ margin-left: 5%;
+ background:#D3D3D3;
+ margin-bottom: 3%;
+ font-family: 'Open Sans', sans-serif;
+ color: #676767;
+ font-size: 16px;
+ border-radius: 5px;
+ border:1px solid #DED6D6;
+}
+
+form.login input[type="text"]:hover,form.login input[type="password"]:hover,form.login input[type="date"]:hover,form.login input[type="email"]:hover{
+ border:1px solid #949494;
+ }
+
+form.login input[type="submit"]{
+ width:50%;
+ padding: 2%;
+ margin-bottom: 3%;
+ margin-left: 5%;
+ background: #21A957;
+ font-family: 'Open Sans', sans-serif;
+ color: #ECECEC;
+ box-shadow: inset 0px 0px 10px #666464;
+ font-size: 20px;
+ border: none;
+ cursor: pointer;
+ font-weight:500;
+ border-radius: 5px;
+}
+
+form.login input[type="submit"]:hover{
+ background:#128A42;
+ color:#fff;
+}
+/* =============== page Inscription =============== */
+.h1 {
+ font-weight:200;
+ color: #888888;
+ font-size:16pt;
+ background: transparent url(../icons/h1.png) no-repeat center left;
+ padding-left:33px;
+ margin:7px 5px 8px 8px;
+}
+/* =============== Formulaire Inscription =============== */
+form.register{
+ color: #373C40;
+ font-family: Verdana,Arial, Helvetica, sans-serif;
+ height: 100%;
+ background-color: #f0f0f0;
+ margin:10px;
+ font-size: 70%;
+ width:800px;
+ margin: 20px auto 0px auto;
+ height:530px;
+ background-color:#fff;
+ padding:5px;
+ -moz-border-radius:20px;
+ -webkit-border-radius:20px;
+ margin-left: -100px;   
+}
+
+form.register p{
+ font-size: 8pt;
+ clear:both;
+ margin: 0;
+ color:gray;
+ padding:4px;
+}
+
+form.register fieldset.row1{
+ width:770px;
+ padding:5px;
+ float:left;
+ border-top:1px solid #F5F5F5;
+ margin-bottom:15px;
+}
+
+form.register fieldset.row1 label{
+ width:140px;
+ float: left;
+ text-align: right;
+ margin-right: 6px;
+ margin-top:2px;
+}
+
+form.register fieldset.row2{
+ border-top:1px solid #F1F1F1;
+ border-right:1px solid #F1F1F1;
+ height:220px;
+ padding:5px;
+ float:left;
+}
+
+form.register fieldset.row3{
+ border-top:1px solid #F1F1F1;
+ padding:5px;
+ float:left;
+ margin-bottom:15px;
+ width:400px;
+}
+
+form.register legend{
+ color: #abda0f;
+ padding:2px;
+ margin-left: 14px;
+ font-weight:bold;
+ font-size: 14px;
+ font-weight:100;
+}
+
+form.register label{
+ color:#444;
+ width:98px;
+ float: left;
+ text-align: right;
+ margin-right: 6px;
+ margin-top:10px;
+}
+
+form.register label.obinfo{
+ float:left;
+ padding:3px;
+ width: 140px;
+ font-style:italic;
+ color: red;
+ margin-top:-5px;
+ margin-bottom:5px;
+}
+
+form.register input{
+ width: 140px;
+ color: #505050;
+ float: left;
+ margin-right: 30px;
+ border: 1px solid #E1E1E1;
+ height: 18px;
+}
+
+form.register input[type=radio]{
+ float:left;
+ margin-right: -0.5px;
+ margin-left: 10px;
+ width:15px;
+}
+
+form.register label.gender{
+ margin-top:-1px;
+ margin-bottom:2px;
+ width:34px;
+ float:left;
+ text-align:left;
+ line-height:19px;
+}
+
+form.register input[type=password]{
+ border: 1px solid #E1E1E1;
+ height: 18px;
+}
+
+.button
+{
+ background: #abda0f ;
+ padding: 8px 10px 8px;
+ color: #fff;
+ text-decoration: none;
+ -moz-border-radius: 5px;
+ -webkit-border-radius: 5px;
+ -moz-box-shadow: 0 1px 3px rgba(0,0,0,0.5);
+ -webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.5);
+ text-shadow: 0 -1px 1px rgba(0,0,0,0.25);
+ cursor: pointer;
+ float:left;
+ font-size:18px;
+ margin-top:15%;
+ margin-left:25%;
+}
+/* =============== page d'index2 =============== */
+div#table{
+ height: 200px;
+ width: 45%;
+ overflow:auto;
+ }
+/* =============== Tableau des contacts =============== */
+table {
+ font-family: arial, sans-serif;
+ border-collapse: collapse;
+ width: 50%;
+ margin-left: 50%;
+}
+
+td {
+ border: 1px solid #dddddd;
+ text-align: left;
+ padding: 8px;
+}
+
+tr:nth-child(even) {
+ background-color: #dddddd;
+}
+
+table td a{
+ text-decoration:none;
+ color: #505050; 
+}
+
+.entete {  
+ margin-left: 20%; 
+ margin-top:-20px;
+ margin-bottom: 30px;
+ font-style: italic;
+ font-family:URW Chancery L;
+ color: #696969;
+}
+/* =============== Ajout et suppression boutton =============== */
+#btn2{
+ margin-left: 400px;
+ margin-top: 150px;
+}
+
+.add{
+ width: 50px;
+ height: 50px;
+ margin-left: 20px;
+ cursor: pointer;
+ 
+
+ }
+
+.supp{
+ width: 50px;
+ height: 50px;
+ margin-left: 20px;
+ cursor: pointer;
+
+
+}
+
+.return{
+ width: 50px;
+ height: 50px;
+ cursor: pointer;
+ 
+ 
+}
+/* =============== Menu de profil =============== */
+#menu{
+ width: 200px;
+ padding: 10px 0 0 0;
+ margin-right:250px;
+ float: right; 
+ list-style: none;  
+ background:#169F00;
+ background: -moz-linear-gradient(#149300, #0F6C00);   
+ background: -webkit-linear-gradient(#149300, #0F6C00);        
+ background: -o-linear-gradient(#149300, #0F6C00);
+ background: -ms-linear-gradient(#149300, #0F6C00);
+ background: linear-gradient(#149300, #0F6C00);
+ -moz-border-top-left-radius: 50px;
+ border-top-left-radius: 50px;
+ -moz-border-bottom-left-radius: 50px;
+ border-bottom-left-radius: 50px;
+ -moz-box-shadow: 0 2px 1px #9c9c9c;
+ -webkit-box-shadow: 0 2px 1px #9c9c9c;
+ box-shadow: 0 2px 1px #9c9c9c;
+}
+
+#menu li{
+ float: left;
+ padding: 0 0 10px 0;
+ position: relative;
+}
+
+#menu a {
+ height: 25px;
+ padding: 0 25px;
+ color: #E6E6E5;
+ text-transform: uppercase;
+ font: bold 12px/25px Arial, Helvetica;
+ text-decoration: none;
+ text-shadow: 0 1px 0 #000;
+ text-align: center;
+}
+
+#menu li:hover > a{
+ color: #fafafa;
+}
+
+
+#menu li:hover > ul{
+ display: block;
+}
+
+/* =============== Sous menu =============== */
+#menu ul{
+ list-style: none;
+ margin: 0;
+ padding: 0;    
+ display: none;
+ position: absolute;
+ top: 35px;
+ left: 0;
+ z-index: 99999;    
+ background: #444;
+ background: -moz-linear-gradient(#149300, #0F6C00);
+ background: -webkit-linear-gradient(#149300, #0F6C00);    
+ background: -o-linear-gradient(#149300, #0F6C00); 
+ background: -ms-linear-gradient(#149300, #0F6C00);        
+ background: linear-gradient(#149300, #0F6C00);
+ -moz-border-radius: 5px;
+ border-radius: 5px;
+}
+
+#menu ul ul{
+ top: 0;
+ right: 150px;  
+}
+
+#menu ul li{
+ height: 30px;
+ width: 200px;
+ float: none;
+ margin: 0;
+ padding: 0;
+ display: block;    
+}
+
+#menu ul a{    
+ padding: 10px;
+ height: 10px;
+ width: 180px;
+ height: auto;
+ line-height: 1;
+ display: block;
+ white-space: nowrap;
+ text-transform: none;
+}
+
+#menu ul a:hover{
+ background: #2A9F18;
+ background: -moz-linear-gradient(#4AC637,  #2A9F18);    
+ background: -webkit-gradient(linear, left top, left bottom, from(#4AC637), to(#2A9F18));
+ background: -webkit-linear-gradient(#4AC637,  #2A9F18);
+ background: -o-linear-gradient(#4AC637,  #2A9F18);
+ background: -ms-linear-gradient(#4AC637,  #2A9F18);
+ background: linear-gradient(#4AC637,  #2A9F18);
+}
+/* =============== Affichage =============== */
+#affiche{
+ margin-left: 720px;
+ margin-top: -360px;
+ padding: 5px;
+ position: fixed;
+}
+
+#affiche1{
+ margin-left: 250px;
+ margin-top: -120px;
+ padding: 5px;
+ position: fixed;
+}
+
+#affiche2{
+ margin-top: 20px;
+ margin-left: 20%;
+}
